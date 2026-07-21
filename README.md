@@ -1,30 +1,27 @@
-# ❤️ Saathi — AI Heart Health Assistant
+# Saathi — AI Heart Health Assistant
 
 Saathi is a simple AI-based project that helps users understand possible heart-related risks based on symptoms.
 
 It supports both voice and text input, predicts risk using a machine learning model, and explains the result in an easy way.
 
----
 
-## ✨ What it does
+##  What it does
 
 - Takes symptoms (voice or text)
 - Converts them into basic medical features
 - Uses a trained ML model to predict heart disease risk
 - Explains the result in simple language using AI
 
----
 
-## 🧠 How it works
+##  How it works
 
 1. User enters symptoms (or speaks them)
 2. Text is converted into structured features
 3. A Random Forest model predicts risk
 4. AI generates a clear explanation + precautions
 
----
 
-## 🧠 How prediction works (simple)
+##  How prediction works
 
 The model uses inputs like:
 - age
@@ -41,9 +38,8 @@ Output:
 
 This is converted into a probability percentage.
 
----
 
-## 🧠 Tech used
+##  Tech used
 
 - Python
 - Flask
@@ -51,15 +47,13 @@ This is converted into a probability percentage.
 - OpenRouter API
 - SpeechRecognition + pyttsx3
 
----
 
-## 📊 Dataset
+##  Dataset
 
 UCI Heart Disease Dataset
 
----
 
-## 📁 Project Structure
+## Project Structure
 
 saathi-app/
 
@@ -70,20 +64,3 @@ saathi-app/
 ├── templates/  
 │   └── index.html      # Web UI  
 ├── requirements.txt  
-
----
-
-## ⚙️ Setup (step-by-step)
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/saathi-app.git
-cd saathi-app
-
-Train the model
-python3 train_model.py
-
-This will generate:
-
-heart_model.pkl
